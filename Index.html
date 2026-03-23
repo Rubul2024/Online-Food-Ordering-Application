@@ -1,11 +1,737 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Food Ordering Application</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover">
+    <title> Online Food Ordering Website </title>
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="Style.css">
+
+    <!-- font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
-    <h2>Online Food Ordering Application</h2>
+
+    <!-- desktop view -->
+    <div class="container" id="container">
+        <div id="menu">
+            <div class="brand-logo">
+                <img src="Image/Food Corner Logo.jpg" alt="logo">
+            </div>
+            <div class="menu-item">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Your Orders</a>
+                <a href="#">Wishlists</a>
+                <a href="#">Cart</a>
+                <a href="#">Contact</a>
+                <a href="#">Checkout</a>
+            </div>
+        </div>
+
+        <div id="food-container">
+            <div id="header">
+                <div class="add-box">
+                    <i class="fa fa-map-marker your-address" id="add-address"> Your Address</i>
+                </div>
+                <div class="util">
+                    <i class="fa fa-search"> Search</i>
+                    <i class="fa fa-tags"> Offers</i>
+                    <i class="fa fa-cart-plus" id="cart-plus"> 0 Items</i>
+                </div>
+            </div>
+
+            <!-- food items 1 BIRYANI -->
+
+            <div id="food-items" class="d-food-items">
+                <div id="biryani" class="d-biryani">
+                    <p id="category-name">Biryani</p>
+
+                    <!-- item card 1 BIRYANI -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.2</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/biryani/Chicken-Biryani-hydrabad.jpg" alt="">
+                        <p id="item-name">Chicken Biryani Hyd</p>
+                        <p id="item-price">Price : ₹200</p>
+                    </div>
+
+                    <!-- item card 2 BIRYANI -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.2</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/biryani/Chicken-Biryani.jpg" alt="">
+                        <p id="item-name">Chicken Biryani Hyd</p>
+                        <p id="item-price">Price : ₹200</p>
+                    </div>
+
+                    <!-- item card 3 BIRYANI -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.2</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/biryani/Egg-Biryani.jpg" alt="">
+                        <p id="item-name">Chicken Biryani Hyd</p>
+                        <p id="item-price">Price : ₹200</p>
+                    </div>
+
+                    <!-- item card 4 BIRYANI -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.2</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/biryani/Fish-Biryani.jpg" alt="">
+                        <p id="item-name">Chicken Biryani Hyd</p>
+                        <p id="item-price">Price : ₹200</p>
+                    </div>
+
+                    <!-- item card 5 BIRYANI -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.2</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/biryani/Kamrupi- Biryani.jpg" alt="">
+                        <p id="item-name">Chicken Biryani Hyd</p>
+                        <p id="item-price">Price : ₹200</p>
+                    </div>
+
+                    <!-- item card 6 BIRYANI -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.2</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/biryani/Kashmiri-Pulao.jpg" alt="">
+                        <p id="item-name">Chicken Biryani Hyd</p>
+                        <p id="item-price">Price : ₹200</p>
+                    </div>
+
+                    <!-- item card 7 BIRYANI -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.2</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/biryani/Memoni-Biryani.jpg" alt="">
+                        <p id="item-name">Chicken Biryani Hyd</p>
+                        <p id="item-price">Price : ₹200</p>
+                    </div>
+
+                    <!-- item card 8 BIRYANI -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.2</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/biryani/Mughlai-Biryani.jpg" alt="">
+                        <p id="item-name">Chicken Biryani Hyd</p>
+                        <p id="item-price">Price : ₹200</p>
+                    </div>
+
+                    <!-- item card 9 BIRYANI -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.2</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/biryani/Mutton-Biryani.jpg" alt="">
+                        <p id="item-name">Chicken Biryani Hyd</p>
+                        <p id="item-price">Price : ₹200</p>
+                    </div>
+                </div>
+
+
+
+                <!-- food items 2 CHICKEN -->
+
+                <div id="chicken" class="d-chicken">
+                    <p id="category-name">Chicken Delicious</p>
+
+                    <!-- item card 1 CHICKEN -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/chicken/Chicken-Curry.jpg" alt="">
+                        <p id="item-name">Chicken Curry</p>
+                        <p id="item-price">Price : ₹245</p>
+                    </div>
+
+                    <!-- item card 2 CHICKEN -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/chicken/Chicken-do-payaza.jpg" alt="">
+                        <p id="item-name">Chicken Do Payaza</p>
+                        <p id="item-price">Price : ₹280</p>
+                    </div>
+
+                    <!-- item card 3 CHICKEN -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/chicken/Chicken-Handi.jpg" alt="">
+                        <p id="item-name">Chicken Handi</p>
+                        <p id="item-price">Price : ₹355</p>
+                    </div>
+
+                    <!-- item card 4 CHICKEN -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/chicken/Chicken-Masala.jpg" alt="">
+                        <p id="item-name">Chicken Masala</p>
+                        <p id="item-price">Price : ₹450</p>
+                    </div>
+
+                    <!-- item card 5 CHICKEN -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/chicken/Chicken-Roast.jpg" alt="">
+                        <p id="item-name">Chicken Roast</p>
+                        <p id="item-price">Price : ₹550</p>
+                    </div>
+
+                    <!-- item card 6 CHICKEN -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/chicken/Murga-Musallam.jpg" alt="">
+                        <p id="item-name">Murga Musallam</p>
+                        <p id="item-price">Price : ₹390</p>
+                    </div>
+
+                    <!-- item card 7 CHICKEN -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/chicken/Paneer-butter-masala.jpg" alt="">
+                        <p id="item-name">Paneer Butter Masala</p>
+                        <p id="item-price">Price : ₹355</p>
+                    </div>
+                </div>
+
+                <!-- food items 3 PANEER -->
+
+                <div id="paneer" class="d-paneer">
+                    <p id="category-name">Paneer </p>
+
+                    <!-- item card 1 PANEER -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/paneer/Matar-Paneer.jpg" alt="">
+                        <p id="item-name">Matar Paneer</p>
+                        <p id="item-price">Price : ₹350</p>
+                    </div>
+
+                    <!-- item card 2 PANEER -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/paneer/Palak-Paneer.jpg" alt="">
+                        <p id="item-name">Palak Paneer</p>
+                        <p id="item-price">Price : ₹360</p>
+                    </div>
+
+                    <!-- item card 3 PANEER -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/paneer/Paneer-do-payaza.jpg" alt="">
+                        <p id="item-name">Paneer Do Payaza</p>
+                        <p id="item-price">Price : ₹370</p>
+                    </div>
+
+                    <!-- item card 4 PANEER -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/paneer/Paneer-hydrabadi.jpg" alt="">
+                        <p id="item-name">Paneer Hydrabadi</p>
+                        <p id="item-price">Price : ₹380</p>
+                    </div>
+
+                    <!-- item card 5 PANEER -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/paneer/Paneer-lababdar.jpg" alt="">
+                        <p id="item-name">Paneer Lababdar</p>
+                        <p id="item-price">Price : ₹390</p>
+                    </div>
+
+                    <!-- item card 6 PANEER -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/paneer/Paner-butter-masala.jpg" alt="">
+                        <p id="item-name">Paneer Butter Masala</p>
+                        <p id="item-price">Price : ₹400</p>
+                    </div>
+
+                    <!-- item card 7 PANEER -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/paneer/Sahi-Paneer.jpg" alt="">
+                        <p id="item-name">Sahi Paneer</p>
+                        <p id="item-price">Price : ₹410</p>
+                    </div>
+
+                    <!-- item card 8 PANEER -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/paneer/Vegetable-Curry.jpg" alt="">
+                        <p id="item-name">Veg Paneer</p>
+                        <p id="item-price">Price : ₹420</p>
+                    </div>
+
+                </div>
+
+                <!-- food items 4 VEGETABLE -->
+
+                <div id="vegetable" class="d-vegetable">
+                    <p id="category-name">Pure Veg Dishes</p>
+
+                    <!-- item card 1 VEGETABLE -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/vegetable/Korma-Vegetable.jpg" alt="">
+                        <p id="item-name">Korma Vegetable</p>
+                        <p id="item-price">Price : ₹280</p>
+                    </div>
+
+                    <!-- item card 2 VEGETABLE -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/vegetable/Veg-Jalfrezi.jpg" alt="">
+                        <p id="item-name">Veg Jalfrezi</p>
+                        <p id="item-price">Price : ₹285</p>
+                    </div>
+
+                    <!-- item card 3 VEGETABLE -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/vegetable/Vegetable-Biryani.jpg" alt="">
+                        <p id="item-name">Veg Biryani</p>
+                        <p id="item-price">Price : ₹290</p>
+                    </div>
+
+                    <!-- item card 4 VEGETABLE -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/vegetable/Vegetable-Curry.jpg" alt="">
+                        <p id="item-name">Vegetable Curry</p>
+                        <p id="item-price">Price : ₹295</p>
+                    </div>
+
+                    <!-- item card 5 VEGETABLE -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/vegetable/Vegetable-Kolhapuroi.jpg" alt="">
+                        <p id="item-name">Kolhapuri Vegetable</p>
+                        <p id="item-price">Price : ₹300</p>
+                    </div>
+
+                    <!-- item card 6 VEGETABLE -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/vegetable/Vegetable-Masala.jpg" alt="">
+                        <p id="item-name">Vegetable Masala</p>
+                        <p id="item-price">Price : ₹285</p>
+                    </div>
+
+                </div>
+
+                <!-- food items 5 CHINESE -->
+
+                <div id="chinese" class="d-chinese">
+                    <p id="category-name">Chinese Corner</p>
+
+                    <!-- item card 1 CHINESE -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/chinese/Cabbage-momos.jpg" alt="">
+                        <p id="item-name"> Cabbage Momos</p>
+                        <p id="item-price">Price : ₹275</p>
+                    </div>
+
+                    <!-- item card 2 CHINESE -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/chinese/Chicken-Manchurian.jpg" alt="">
+                        <p id="item-name"> Chicken Manchurian</p>
+                        <p id="item-price">Price : ₹375</p>
+                    </div>
+
+                    <!-- item card 3 CHINESE -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/chinese/Chilli-Chicken.jpg" alt="">
+                        <p id="item-name"> Chilli Chicken</p>
+                        <p id="item-price">Price : ₹325</p>
+                    </div>
+
+                    <!-- item card 4 CHINESE -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/chinese/Chowmin.jpg" alt="">
+                        <p id="item-name"> Chowmin</p>
+                        <p id="item-price">Price : ₹375</p>
+                    </div>
+
+                    <!-- item card 5 CHINESE -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/chinese/Momos.jpg" alt="">
+                        <p id="item-name"> Momos</p>
+                        <p id="item-price">Price : ₹275</p>
+                    </div>
+
+                    <!-- item card 6 CHINESE -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/chinese/Spring-Roll.jpg" alt="">
+                        <p id="item-name"> Spring Roll</p>
+                        <p id="item-price">Price : ₹175</p>
+                    </div>
+
+                    <!-- item card 7 CHINESE -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/chinese/Szechuan-chicken.jpg" alt="">
+                        <p id="item-name"> Szechuan Chicken</p>
+                        <p id="item-price">Price : ₹295</p>
+                    </div>
+
+                    <!-- item card 8 CHINESE -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/chinese/Veg-Fried-Rice.jpg" alt="">
+                        <p id="item-name"> Veg Fried Rice</p>
+                        <p id="item-price">Price : ₹145</p>
+                    </div>
+
+                </div>
+
+                <!-- food items 6 SOUTH INDIAN -->
+
+                <div id="south-indian" class="d-south-indian">
+                    <p id="category-name">South Indian</p>
+
+                    <!-- item card 1 SOUTH INDIAN -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.5</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/south indian/Butter-Masala-Dosa.jpg" alt="">
+                        <p id="item-name">Butter Masala Dosa</p>
+                        <p id="item-price">Price : ₹170</p>
+                    </div>
+
+                    <!-- item card 2 SOUTH INDIAN -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.5</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/south indian/Idli-with-rice-flour.jpg" alt="">
+                        <p id="item-name">Idli with Rice Flour</p>
+                        <p id="item-price">Price : ₹178</p>
+                    </div>
+
+                    <!-- item card 3 SOUTH INDIAN -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.5</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/south indian/Masala-Dosa.jpg" alt="">
+                        <p id="item-name">Masala Dosa</p>
+                        <p id="item-price">Price : ₹180</p>
+                    </div>
+
+                    <!-- item card 4 SOUTH INDIAN -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.5</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/south indian/Mysore-Bonda.jpg" alt="">
+                        <p id="item-name">Mysore Bonda</p>
+                        <p id="item-price">Price : ₹260</p>
+                    </div>
+
+                    <!-- item card 5 SOUTH INDIAN -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.5</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/south indian/Onion-Uttapam.jpg" alt="">
+                        <p id="item-name">Onion Uttapam</p>
+                        <p id="item-price">Price : ₹280</p>
+                    </div>
+
+                    <!-- item card 6 SOUTH INDIAN -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.5</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/south indian/Plain-Dosa.jpg" alt="">
+                        <p id="item-name">Plain Dosa</p>
+                        <p id="item-price">Price : ₹350</p>
+                    </div>
+
+                    <!-- item card 7 SOUTH INDIAN -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.5</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/south indian/Rava-Upma.jpg" alt="">
+                        <p id="item-name">Rava Upma</p>
+                        <p id="item-price">Price : ₹120</p>
+                    </div>
+
+                    <!-- item card 8 SOUTH INDIAN -->
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.5</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="Image/south indian/Sambar-Dosa.jpg" alt="">
+                        <p id="item-name">Sambar Dosa</p>
+                        <p id="item-price">Price : ₹170</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- cart page -->
+
+            <div id="cart-page" class="cart-toggle">
+                <p id="cart-title">Cart Items</p>
+                <p id="m-total-amount">Total Amout : ₹100</p>
+                <table>
+                    <thead>
+                        <td>Item</td>
+                        <td>Name</td>
+                        <td>Quantity</td>
+                        <td>Price</td>
+                    </thead>
+                    <tbody id="table-body">
+                        <tr>
+                            <td><img src="Image/biryani/Chicken-Biryani.jpg" alt="img"></td>
+                            <td>Chicken Biryani</td>
+                            <td>
+                                <button class="decrease-item"> - </button>
+                                <span>1</span>
+                                <button class="increase-item"> + </button>
+                            </td>
+                            <td>10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+
+        <div id="cart">
+            <div class="taste-header">
+                <div class="user">
+                    <i class="fa fa-user-circle" id="circle"> Account</i>
+                </div>
+            </div>
+
+            <div id="category-list">
+                <p class="item-menu">Go For Hunt</p>
+                <div class="border"></div>
+
+                <!-- list card BIRYANI -->
+
+                <div class="list-card">
+                    <img src="Image/chicken/Chicken-Curry.jpg" alt="list">
+                    <a href="" class="list-name">BIRYANI</a>
+                </div>
+                <!-- list card CHICKEN -->
+
+                <div class="list-card">
+                    <img src="Image/biryani/Chicken-Biryani.jpg" alt="list">
+                    <a href="" class="list-name">CHICKEN</a>
+                </div>
+
+                <!-- list card CHINESE -->
+
+                <div class="list-card">
+                    <img src="Image/chinese/Cabbage-momos.jpg" alt="list">
+                    <a href="" class="list-name">CHINESE</a>
+                </div>
+
+                <!-- list card PANEER -->
+
+                <div class="list-card">
+                    <img src="Image/paneer/Matar-Paneer.jpg" alt="list">
+                    <a href="" class="list-name">PANEER</a>
+                </div>
+
+                <!-- list card SOUTH INDIAN -->
+
+                <div class="list-card">
+                    <img src="Image/south indian/Sambar-Dosa.jpg" alt="list">
+                    <a href="" class="list-name">SOUTH INDIAN</a>
+                </div>
+
+                <!-- list card VEGETABLE -->
+
+                <div class="list-card">
+                    <img src="Image/vegetable/Korma-Vegetable.jpg" alt="list">
+                    <a href="" class="list-name">VEGETABLE</a>
+                </div>
+            </div>
+
+
+            <div id="checkout" class="cart-toggle">
+                <p id="total-item">Total Item : 5</p>
+                <p id="total-price">Total Amount : ₹500</p>
+                <p id="delievery">Free delievery above ₹200</p>
+                <button class="cart-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
